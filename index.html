@@ -9,6 +9,8 @@
       href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="stylesheet" href="css/style.css" />
     <title>Dessert recipe generator</title>
   </head>
@@ -18,7 +20,7 @@
         <h1>Dessert Recipe Generator🍰</h1>
       </header>
       <main class="box">
-        <form>
+        <form id="recipe-form">
           <input
             type="text"
             placeholder="What kind of dessert would you like to try out today?🤤🤔"
@@ -28,15 +30,7 @@
           />
           <input type="submit" class="input-button" />
         </form>
-        <div class="recipe">
-          Your guide to a sweet treat is on its way!
-          <br />
-          Ingredients here
-          <br />
-          Recipe here
-          <br />
-          Small picture here
-        </div>
+        <div class="recipe" id="recipe"></div>
       </main>
       <footer>
         This AI project was coded by
