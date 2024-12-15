@@ -1,0 +1,72 @@
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/152/900/original/premium_photo-1681826543445-e84c16a952b4.jpg?1734276683");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Lato", serif;
+}
+
+a {
+  color: rgb(69, 0, 90);
+}
+
+h1 {
+  font-family: "Abril Fatface", serif;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 30px auto;
+  text-align: center;
+}
+
+form {
+  border-radius: 8px;
+  display: flex;
+  margin-bottom: 20px;
+  padding: 30px;
+}
+
+.input {
+  font-size: 16px;
+  padding: 15px;
+  border: 1px solid rgba(185, 185, 185, 0.8);
+  border-radius: 50px;
+  line-height: 20px;
+  width: 80%;
+}
+
+.input-button {
+  background-color: rgb(255, 238, 217);
+  font-size: 16px;
+  padding: 14px 22px;
+  border: none;
+  border-radius: 50px;
+  margin-left: 12px;
+  width: 150px;
+}
+
+.container {
+  background-color: rgba(250, 235, 215, 0.8);
+  border-radius: 8px;
+  box-shadow: 17px 10px 10px rgba(250, 235, 215, 0.26);
+  margin: 200px auto;
+  max-width: 800px;
+}
+.box {
+  color: #000000;
+}
+
+.recipe {
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 15px;
+}
+
+main {
+  margin-bottom: 30px;
+}
+
+footer {
+  font-size: 16px;
+  margin-top: 28px;
+  text-align: center;
+}

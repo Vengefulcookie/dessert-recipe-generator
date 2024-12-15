@@ -3,54 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <title>Dessert recipe generator</title>
   </head>
   <body>
-    <header>
-      <h1>Dessert Recipe Generator🍰</h1>
-    </header>
-
-    <main id="box">
-      <form>
-        <input
-          type="text"
-          placeholder="What kind of dessert would you like to
-        try out today?🤤🤔"
-          autofocus
-          required
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        Your guide to a sweet treat is on its way!
-        <br />
-        Ingredients here
-        <br />
-        Recipe here
-        <br />
-        Small picture here
-      </div>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/Vengefulcookie" target="_blank"
-        ><strong>Snethemba Shangase🖤</strong></a
-      >
-      and is
-      <a
-        href="https://github.com/Vengefulcookie/dessert-recipe-generator"
-        target="_blank"
-      >
-        on GitHub</a
-      >
-      and
-      <a
-        href="https://vcookie-dessert-recipe-generator.netlify.app/"
-        target="_blank"
-        >hosted on Netlify</a
-      >.
-    </footer>
+    <div class="container">
+      <header>
+        <h1>Dessert Recipe Generator🍰</h1>
+      </header>
+      <main class="box">
+        <form>
+          <input
+            type="text"
+            placeholder="What kind of dessert would you like to try out today?🤤🤔"
+            class="input"
+            autofocus
+            required
+          />
+          <input type="submit" class="input-button" />
+        </form>
+        <div class="recipe">
+          Your guide to a sweet treat is on its way!
+          <br />
+          Ingredients here
+          <br />
+          Recipe here
+          <br />
+          Small picture here
+        </div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/Vengefulcookie" target="_blank"
+          ><strong>Snethemba Shangase🖤</strong></a
+        >
+        and is
+        <a
+          href="https://github.com/Vengefulcookie/dessert-recipe-generator"
+          target="_blank"
+        >
+          on GitHub</a
+        >
+        and
+        <a
+          href="https://vcookie-dessert-recipe-generator.netlify.app/"
+          target="_blank"
+          >hosted on Netlify</a
+        >.
+      </footer>
+    </div>
     <script src="javascript/index.js"></script>
   </body>
 </html>
