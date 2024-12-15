@@ -20,17 +20,22 @@
         <h1>Dessert Recipe Generator🍰</h1>
       </header>
       <main class="box">
-        <form id="recipe-form">
-          <input
-            type="text"
-            placeholder="What kind of dessert would you like to try out today?🤔"
-            class="input"
-            id="user-instructions"
-            autofocus
-            required
-          />
-          <input type="submit" class="input-button" />
-        </form>
+        <div class="wrapper">
+          <form id="recipe-form">
+            <input
+              type="text"
+              placeholder="What kind of dessert would you like to try out today?🤔"
+              class="input"
+              id="user-instructions"
+              autofocus
+              required
+            />
+            <input type="submit" class="input-button" />
+          </form>
+          <div class="example">
+            i.e vanilla ice cream, red velvet cupcakes or chocolate chip cookies
+          </div>
+        </div>
         <div class="recipe" id="recipe"></div>
       </main>
       <footer>
