@@ -25,13 +25,14 @@ When you're craving something sweet but don't know what — this app finds a rec
 This project was all about working with API data and presenting it in a user-friendly way. I learned how to handle different API response structures, create fallbacks for missing data, and design an interface that feels delightful to use. The random generation feature taught me about managing state when data changes unexpectedly.
 
 ## Running Locally
-
 ```bash
 git clone https://github.com/Vengefulcookie/dessert-recipe-generator.git
 cd dessert-recipe-generator
 npm install
 npm start
-Contact
-Find me on GitHub or LinkedIn
+```
+## Contact
+- GitHub: github.com/Vengefulcookie
+- LinkedIn: linkedin.com/in/snethemba-shangase-softw-mech-civil0101
 
 Built with ☕ and sweet cravings
