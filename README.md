@@ -1,6 +1,3 @@
-## Project: Dessert Recipe Generator
-
-```markdown
 # Dessert Recipe Generator
 > Generate cosmic dessert recipes or search for your favorites. Perfect for sweet inspiration across the galaxy.
 
